@@ -35,7 +35,8 @@ class Owner
       dog if dog.owner == self}
   end
 
-  def buy_cat(cat)
+  def buy_cat(cat_name)
+    cat = Cat.new(cat_name, self)
     Cat.all << cat
   end
 
