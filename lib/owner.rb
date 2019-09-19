@@ -57,7 +57,9 @@ class Owner
     all_pets = [Cat.all, Dog.all]
     all_pets.each{|type|
       type.each{|animal|
-        animal.mood = "nervous"}}
+        animal.mood = "nervous"
+        animal.owner = nil
+      }}
   end
 
 end
