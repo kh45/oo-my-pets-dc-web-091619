@@ -1,4 +1,4 @@
 class Owner
-  attr_reader: :name
+  attr_reader :name
 
 end
