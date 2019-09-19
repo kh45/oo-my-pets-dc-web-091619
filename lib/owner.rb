@@ -5,5 +5,9 @@ class Owner
     @name = name
     @species = species
   end
+  
+  def say_spceies
+    self.species
+  end
 
 end
