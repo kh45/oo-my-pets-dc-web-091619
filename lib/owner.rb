@@ -47,5 +47,10 @@ class Owner
     Dog.all.each{|dog|
       dog.mood = "happy"}
   end
+  
+  def feed_cats
+    Cat.all.each{|cat|
+      cat.mood = "happy"}
+    end
 
 end
