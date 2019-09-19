@@ -35,4 +35,7 @@ class Owner
       dog if dog.owner == self}
   end
 
+  def buy_cat
+  end
+
 end
