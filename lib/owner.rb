@@ -6,7 +6,7 @@ class Owner
     @species = species
   end
   
-  def say_spceies
+  def say_species
     self.species
   end
 
