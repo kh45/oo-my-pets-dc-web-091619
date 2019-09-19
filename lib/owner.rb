@@ -61,5 +61,7 @@ class Owner
         animal.owner = nil
       }}
   end
+  
+  def list_pets
 
 end
